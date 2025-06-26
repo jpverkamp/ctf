@@ -1,4 +1,4 @@
-fetch("https://8cc8faad5b425d.lhr.life/script.js")
+fetch("https://e893cfcf7343ec.lhr.life/json")
   .then((response) => response.json()) // Parse JSON from the response
   .then((data) => {
     console.log(data); // Use the data
@@ -6,3 +6,7 @@ fetch("https://8cc8faad5b425d.lhr.life/script.js")
   .catch((error) => {
     console.error("Error fetching data:", error);
   });
+
+document.onload = function() {{
+  document.getElementById("theform").submit();
+}};
